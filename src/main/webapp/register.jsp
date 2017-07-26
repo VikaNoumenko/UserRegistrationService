@@ -11,25 +11,19 @@ table.inner{border: 0px}
 </head>
  
 <body>
-<h3>Student Registration Form</h3>
+<h3>Registration Form</h3>
 <form action="RegServlet" method="POST">
  
 <table align="center" cellpadding = "10">
 <tr>
-<td>First Name</td>
+<td>Name</td>
 <td><input type="text" name="firstName" maxlength="30"/>
 (max 30 characters a-z and A-Z)
 </td>
 </tr>
+
 <tr>
-<td>Middle Name</td>
-<td><input type="text" name="middleName" maxlength="30"/>
-(max 30 characters a-z and A-Z)
-</td>
-</tr>
- 
-<tr>
-<td>Last Name</td>
+<td>Surname</td>
 <td><input type="text" name="lastName" maxlength="30"/>
 (max 30 characters a-z and A-Z)
 </td>
@@ -41,7 +35,7 @@ table.inner{border: 0px}
 </tr>
 
 <tr>
-<td>User ID</td>
+<td>ID</td>
 <td><input type="text" name="userId" maxlength="100" /></td>
 </tr>
 <tr>

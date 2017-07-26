@@ -16,7 +16,7 @@
 <div id="login-box">
 
 <H2>Login Page</H2>
-Please provide your credential to use this website
+Please provide your credential to use this service
 <br />
 <br />
 <div id="login-box-name" style="margin-top:20px;">User Id:</div>

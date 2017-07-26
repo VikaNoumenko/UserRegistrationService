@@ -27,10 +27,9 @@
 		 <table>
 			 <thead>
 				 <tr>
-					 <th>User ID</th>
-					 <th>First Name</th>
-					 <th>Middle Name</th>
-					 <th>Last Name</th>
+					 <th>ID</th>
+					 <th>Name</th>
+					 <th>Surname</th>
 					 <th>email</th>					
 				 </tr>
 			 </thead>
