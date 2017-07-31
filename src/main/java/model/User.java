@@ -13,9 +13,8 @@ public class User implements Serializable {
     
     @Id @GeneratedValue
     private Long id;
-    private String firstName;
-    private String middleName;
-    private String lastName;
+    private String name;
+    private String surname;
     private String email;
     private String userId;
     private String password;
@@ -24,10 +23,9 @@ public class User implements Serializable {
     }
 
     
-    public User(String firstName, String middleName, String lastName, String email, String userId, String password) {
-        this.firstName = firstName;
-        this.middleName = middleName;
-        this.lastName = lastName;
+    public User(String name, String surname, String email, String userId, String password) {
+        this.name = name;
+        this.surname = surname;
         this.email = email;
         this.userId = userId;
         this.password = password;
@@ -42,28 +40,20 @@ public class User implements Serializable {
         this.id = id;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getName() {
+        return name;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getMiddleName() {
-        return middleName;
+    public String getSurname() {
+        return surname;
     }
 
-    public void setMiddleName(String middleName) {
-        this.middleName = middleName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
     public String getEmail() {

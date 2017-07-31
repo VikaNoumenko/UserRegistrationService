@@ -19,7 +19,7 @@
 			 <%
 				 User user = (User) session.getAttribute("user");
 			 %>		
-			 <b>Welcome <%= user.getFirstName() + " " + user.getLastName()%></b>		
+			 <b>Welcome <%= user.getName() + " " + user.getSurname()%></b>		
 			 <br/>
 			 <a href="logout.jsp">Logout</a>
 		 </p>
@@ -41,9 +41,8 @@
 				 %>
 				 <tr>
 					 <td><%=u.getUserId()%></td>
-					 <td><%=u.getFirstName()%></td>
-					 <td><%=u.getMiddleName()%></td>
-					 <td><%=u.getLastName()%></td>
+					 <td><%=u.getName()%></td>
+					 <td><%=u.getSurname()%></td>
 					 <td><%=u.getEmail()%></td>
 				 </tr>
 				 <%}%>

@@ -17,15 +17,15 @@ table.inner{border: 0px}
 <table align="center" cellpadding = "10">
 <tr>
 <td>Name</td>
-<td><input type="text" name="firstName" maxlength="30"/>
-(max 30 characters a-z and A-Z)
+<td><input type="text" name="name" maxlength="30"/>
+(max 30 characters)
 </td>
 </tr>
 
 <tr>
 <td>Surname</td>
-<td><input type="text" name="lastName" maxlength="30"/>
-(max 30 characters a-z and A-Z)
+<td><input type="text" name="surname" maxlength="30"/>
+(max 30 characters )
 </td>
 </tr>
  
